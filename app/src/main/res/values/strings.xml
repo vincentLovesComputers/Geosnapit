@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="googleApiKey">AIzaSyANyBp9WhoIrJCcBofqhw7Y24KN4IvDSqI</string>
+    <string name="app_name">geosnapit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="login_label">Login</string>
+    <string name="pwd_label">Password</string>
+    <string name="pwd_confirm_label">Confirm Password</string>
+    <string name="signup_email_label">Email</string>
+    <string name="logout_action_bar">Logout</string>
+
+    <!--setup activity-->
+    <string name="setup_name">Username</string>
+    <string name="setup_street_name">Street name</string>
+    <string name="setup_province">Province</string>
+    <string name="setup_city">City</string>
+
+    <!--complaint-->
+    <string name="add_complaint">New Complaint</string>
+
+    <!--create complaint-->
+    <string name="complaint_title">Title Of Complaint</string>
+    <string name="describe_complaint">Describe complaint</string>
+    <string name="edit_submit_complaint">Submit</string>
+    <string name="locality_label">Location</string>
+    <string name="description_label">Complaint</string>
+    <string name="review_hint">new review...</string>
+    <string name="sign_up_intro_1">Welcome!</string>
+    <string name="signup_intro_2">For better sustainable communities</string>
+    <string name="splash_screen">geosnapit</string>
+
+    <!--Errors-->
+    <string name="pwd_not_match">Passwords do not match</string>
+    <string name="empty_fields">Field is empty</string>
+    <string name="no_address_btn">No</string>
+    <string name="yes_address_btn">Yes</string>
+    <string name="main_notification">Notifications</string>
+    <string name="notification_image">notifications</string>
+
+    <!--notifications activity-->
+    <string name="notifications_activity_title">Notifications</string>
+
+</resources>

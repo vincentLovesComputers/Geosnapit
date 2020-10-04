@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_marginBottom="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/bottom_layout"
+
+            >
+
+            <TextView
+                android:id="@+id/issue_update_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="start"
+                android:text="Has issue been solved?"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/review_message_recycler_view"
+                app:layout_constraintEnd_toStartOf="@+id/issue_no_btn"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.407" />
+
+            <Button
+                android:id="@+id/issue_no_btn"
+                android:layout_width="wrap_content"
+                style="@style/TextAppearance.MaterialComponents.Button"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="No"
+                android:layout_marginLeft="5dp"
+                android:visibility="invisible"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:theme="@style/yes_btn_style"
+                app:layout_constraintEnd_toStartOf="@id/issue_yes_btn"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginRight="10dp"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <Button
+                android:id="@+id/issue_yes_btn"
+                android:layout_width="wrap_content"
+                style="@style/TextAppearance.MaterialComponents.Button"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Yes"
+                android:backgroundTint="@color/red"
+                android:visibility="invisible"
+                android:layout_marginRight="5dp"
+                android:theme="@style/yes_btn_style"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/review_message_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_below="@+id/issue_update_text"
+                android:background="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/issue_no_btn" />
+
+            <ProgressBar
+                android:id="@+id/compl_rev__prog_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:visibility="invisible"
+                android:fadingEdge="horizontal"
+                android:foregroundTint="@color/colorPrimaryDark"
+                android:foregroundTintMode="src_atop"
+                android:indeterminate="true"
+                android:indeterminateTint="@color/orange2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:elevation="10dp"
+            android:layout_alignParentBottom="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_check_green_24dp"
+                android:id="@+id/checkmark"/>
+
+            <EditText
+                android:id="@+id/input_message"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+
+                android:layout_toLeftOf="@+id/checkmark"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="@string/review_hint"
+                android:textColor="@color/black"
+                android:textColorHint="#00000000"
+                android:textSize="14sp" />
+
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/user_list_container">
+
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+

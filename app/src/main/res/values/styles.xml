@@ -1,0 +1,135 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="regTextFieldTheme" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name = "backgroundColor">@color/colorPrimary</item>
+        <item name ="sizePercent">50</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeColor">@color/white</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="backgroundTint">#fff</item>
+        <item name="hintTextColor">@color/white</item>
+        <item name="cornerFamily">rounded</item>
+        <item name ="cornerSize">20dp</item>
+
+
+    </style>
+
+    <style name="textFieldTheme" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeColor">@color/colorPrimaryDark</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="backgroundTint">#fff</item>
+        <item name="hintTextColor">@color/white</item>
+
+
+    </style>
+
+    <style name="productEditTextFieldTheme" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeColor">@color/colorPrimaryDark</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="backgroundTint">@color/black</item>
+        <item name="hintTextColor">@color/colorPrimaryDark</item>
+
+
+    </style>
+
+    <style name="AppTheme.Button" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="servicesCardView" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">10dp</item>
+        <item name="cornerSizeTopRight">10dp</item>
+        <item name="cornerSizeBottomLeft">10dp</item>
+        <item name="cornerSizeBottomRight">10dp</item>
+        <item name="elevation">10dp</item>
+
+    </style>
+
+    <style name="myStoreCardView" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">25dp</item>
+        <item name="cornerSizeTopRight">25dp</item>
+        <item name="cornerSizeBottomLeft">5dp</item>
+        <item name="cornerSizeBottomRight">5dp</item>
+        <item name="elevation">10dp</item>
+
+    </style>
+
+    <style name="dropdownStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="borderWidth">2dp</item>
+        <item name="boxStrokeColor">@color/colorAccent</item>
+        <item name="android:textColor">#000000</item>
+        <item name="itemTextColor">#000000</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="endIconTint">@color/black</item>
+        <item name="endIconMode">dropdown_menu</item>
+    </style>
+
+    <style name="myStoreProductInfoCardView" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerSizeTopLeft">10dp</item>
+        <item name="cornerSizeTopRight">10dp</item>
+        <item name="cornerSizeBottomLeft">10dp</item>
+        <item name="cornerSizeBottomRight">10dp</item>
+        <item name="elevation">1dp</item>
+
+    </style>
+
+    <style name="circleImageViewStyle" >
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="locateUserCardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">10dp</item>
+        <item name="cornerSizeTopLeft">10dp</item>
+        <item name="cornerSizeBottomRight">10dp</item>
+        <item name="cornerSizeBottomLeft">10dp</item>
+        <item name="contentPadding">0dp</item>
+    </style>
+
+    <style name="notificationTheme" parent="Widget.MaterialComponents.CardView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">25dp</item>
+        <item name="cornerSizeTopLeft">25dp</item>
+        <item name="cornerSizeBottomRight">25dp</item>
+        <item name="cornerSizeBottomLeft">25dp</item>
+        <item name="contentPadding">0dp</item>
+    </style>
+
+
+    <style name="loginpageCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">20dp</item>
+        <item name="cornerSizeTopLeft">20dp</item>
+        <item name="cornerSizeBottomRight">20dp</item>
+        <item name="cornerSizeBottomLeft">20dp</item>
+        <item name="contentPadding">0dp</item>
+    </style>
+
+    <style name="yes_btn_style" parent="Widget.MaterialComponents.Button">
+        <item name="colorButtonNormal">@color/orange1</item>
+    </style>
+    <style name="no_btn_style" parent="Widget.MaterialComponents.Button">
+        <item name="colorButtonNormal">@color/orange1</item>
+        <item name="android:theme">@style/ThemeOverlay.MaterialComponents.Light</item>
+    </style>
+
+
+
+
+</resources>

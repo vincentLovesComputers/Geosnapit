@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "603997130544",
+    "firebase_url": "https://complainer-ba24e.firebaseio.com",
+    "project_id": "complainer-ba24e",
+    "storage_bucket": "complainer-ba24e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603997130544:android:9ec7199799fd08b9f982f5",
+        "android_client_info": {
+          "package_name": "com.vincent.govermentcomplaintapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603997130544-fnuf8ej1joki3bctdogokb94f3rv44ef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANyBp9WhoIrJCcBofqhw7Y24KN4IvDSqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603997130544-fnuf8ej1joki3bctdogokb94f3rv44ef.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
