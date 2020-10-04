@@ -2,7 +2,14 @@
 
 Android mobile app created to improve service delivery and develop better communities by allowing active participation from citizens
 
-<img src="app/
+### Register :--------------------------------------------------------------|----------------------------- ### Profile setup ---------------------:
+<img src="app/src/main/res/app-images/Screenshot_20201003-222544.jpg.jpg"/>| <img src="app/src/main/res/app-images/Screenshot_20201003-222614.jpg/>
+  
+ <img src="app/src/main/res/app-images/Screenshot_20201003-222618.jpg"/>| <img src="app/src/main/res/app-images/Screenshot_20201003-222625.jpg/> 
+  
+  <img src="app/src/main/res/app-images/Screenshot_20201003-222641.jpg"/>| <img src="app/src/main/res/app-images/Screenshot_20201003-222649.jpg/> 
+  
+  <img src="app/src/main/res/app-images/Screenshot_20201003-222712.jpg"/>| <img src="app/src/main/res/app-images/Screenshot_20201003-222708.jpg/> 
 
 ##### Video on YouTube [youtube/snake](https://www.youtube.com/watch?v=fPJEFJQDgHc)
 
