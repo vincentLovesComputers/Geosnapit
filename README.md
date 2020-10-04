@@ -2,11 +2,10 @@
 
 Android mobile app created to improve service delivery and develop better communities by allowing active participation from citizens
 
-                    Sign Up                                                                                  Profile setup 
-<img src="app/src/main/res/app-images/Screenshot_20201003-222544.jpg" height="400" />| <img src="app/src/main/res/app-images/Screenshot_20201003-222614.jpg"  height="400"/>
+<img src="app/src/main/res/app-images/Screenshot_20201003-222544.jpg" height="400" alt="register" />| <img src="app/src/main/res/app-images/Screenshot_20201003-222614.jpg"  height="400" alt="profile setup/>
   
                 Home                                                    :                 taking picture of issue in community
- <img src="app/src/main/res/app-images/Screenshot_20201003-222618.jpg"/>| <img src="app/src/main/res/app-images/Screenshot_20201003-222625.jpg/> 
+ <img src="app/src/main/res/app-images/Screenshot_20201003-222618.jpg" alt="home" height="400"/>| <img src="app/src/main/res/app-images/Screenshot_20201003-222625.jpg/> 
   
   <img src="app/src/main/res/app-images/Screenshot_20201003-222641.jpg"/>| <img src="app/src/main/res/app-images/Screenshot_20201003-222649.jpg/> 
   
